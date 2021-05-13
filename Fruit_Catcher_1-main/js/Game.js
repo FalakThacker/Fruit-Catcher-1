@@ -62,13 +62,7 @@ class Game{
                 text(allPlayers[plr].name, x-25,y+25)
             }
             // the name of the player on the basket.
-            if(player1.isTouching(fruitGroup)){
-                fruitGroup.destroyEach()
-            }
-
-            if(player2.isTouching(fruitGroup)){
-                fruitGroup.destroyEach()
-            }
+           
 
 
         }
